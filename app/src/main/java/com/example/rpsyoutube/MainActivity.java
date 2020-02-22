@@ -88,13 +88,13 @@ public class MainActivity extends AppCompatActivity {
 
         String computer_choice = "";
         Random r = new Random();
-        int computer_choice_number = r.nextInt(3);
+        int computer_choice_number = r.nextInt(2);
 
-        if (computer_choice_number == 1) {
+        if (computer_choice_number == 0) {
             computer_choice = "Rock";
-        } else if (computer_choice_number == 2) {
+        } else if (computer_choice_number == 1) {
             computer_choice = "Paper";
-        } else if (computer_choice_number == 3) {
+        } else if (computer_choice_number == 2) {
             computer_choice = "Scissors ";
         }
 
